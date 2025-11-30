@@ -1,4 +1,4 @@
-from lesson_pakkege.tools import utils
+from lesson_package.tools import utils
 
 def sing():
     return 'ldkjlakngb;adsf.,mel'

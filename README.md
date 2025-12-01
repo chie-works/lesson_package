@@ -9,9 +9,24 @@ Python 学習用のサンプルパッケージです。
 ---
 
 ### インストール方法
-開発モードでインストールする場合:
+開発者向け（編集しながら試す場合）
 ```bash
 pip install -e .
+```
+利用者が GitHub から使う場合
+```bash
+pip install git+https://github.com/... 
+```
+または
+```bash
+pip install git+https://github.com/chie-works/lesson_package.git
+git clone https://github.com/username/lesson_package.git
+cd lesson_package
+pip install .
+```
+利用者が PyPI から使う場合
+```bash
+pip install lesson_package
 ```
 
 ### 使用例

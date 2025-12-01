@@ -3,7 +3,7 @@
 Python 学習用のサンプルパッケージです。  
 サブモジュールとして `talk` と `tools` を含み、関数の呼び出しやパッケージ構成の理解を目的としています。
 <div align="right">
-  <a href="../README.md#section5">◀️READMEに戻る</a>
+  <a href="../README.md#section5">◀️XXXX戻る</a>
 </div>
 
 ---
@@ -58,3 +58,6 @@ lesson_package/
 MIT License
 
 ---
+<div align="right">
+  <a href="../README.md#section5">◀️XXXX戻る</a>
+</div>

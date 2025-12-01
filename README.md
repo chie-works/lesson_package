@@ -1,41 +1,32 @@
-# lesson_package
+## lesson_package
 
 Python 学習用のサンプルパッケージです。  
 サブモジュールとして `talk` と `tools` を含み、関数の呼び出しやパッケージ構成の理解を目的としています。
 
-## インストール方法
-
-開発モードでインストールする場合:
-
-````bash
-pip install -e .
-
-
 ---
 
-### 3. 使用例（サンプルコード）
-- 実際に import して動かす例を載せると分かりやすい
+### インストール方法
 
-```markdown
-## 使用例
-
-```python
+- 開発モードでインストールする場合:
+```bash
+pip install -e .
+```
+- 使用例
+実際に import して動かす例です
+```bash
 from lesson_package.talk import human, animal
 from lesson_package.tools import utils
 
 print(human.sing())          # "human sings"
 print(animal.cry())          # "animal cries"
 print(utils.say_twice("hi")) # "hi!hi!"
+```
 
 
----
 
-### 4. ディレクトリ構成
-- フォルダ構成を載せるとパッケージの全体像が伝わりやすい
-
-```markdown
-## ディレクトリ構成
-
+- ディレクトリ構成
+パッケージ全体の構造は以下の通りです。
+```bash
 lesson_package/
  ├── __init__.py
  ├── talk/
@@ -45,7 +36,14 @@ lesson_package/
  └── tools/
       ├── __init__.py
       └── utils.py
+```
 
-## ライセンス
+- ライセンス
 MIT License
-````
+
+---
+
+<div align="right">
+  <a href="../README.md#section5">◀️READMEに戻る</a>
+</div>
+
